@@ -1,4 +1,4 @@
-# Public design documents only; exclude common runtime and private artifacts.
+# Sanitized code and design; exclude runtime and private artifacts.
 .env
 .env.*
 !.env.example
