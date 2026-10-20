@@ -1,0 +1,18 @@
+# Public design documents only; exclude common runtime and private artifacts.
+.env
+.env.*
+!.env.example
+config.json
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.log
+*.pem
+*.key
+node_modules/
+__pycache__/
+backups/
+private/
+.DS_Store
+Thumbs.db
